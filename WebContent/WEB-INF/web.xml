@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>HoatDongThienNguyen</display-name>
+  <welcome-file-list>
+    <welcome-file>DanhSachHoatDongServlet</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>ThemHoatDongServlet</servlet-name>
+    <servlet-class>controller.ThemHoatDongServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ThemHoatDongServlet</servlet-name>
+    <url-pattern>/ThemHoatDongServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DanhSachHoatDongServlet</servlet-name>
+    <servlet-class>controller.DanhSachHoatDongServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DanhSachHoatDongServlet</servlet-name>
+    <url-pattern>/DanhSachHoatDongServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SuaHoatDongServlet</servlet-name>
+    <servlet-class>controller.SuaHoatDongServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SuaHoatDongServlet</servlet-name>
+    <url-pattern>/SuaHoatDongServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>XoaHoatDongServlet</servlet-name>
+    <servlet-class>controller.XoaHoatDongServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>XoaHoatDongServlet</servlet-name>
+    <url-pattern>/XoaHoatDongServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DiemTrungBinhServlet</servlet-name>
+    <servlet-class>controller.DiemTrungBinhServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DiemTrungBinhServlet</servlet-name>
+    <url-pattern>/DiemTrungBinhServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
